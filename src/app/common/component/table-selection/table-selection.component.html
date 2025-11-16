@@ -1,0 +1,50 @@
+<cdk-virtual-scroll-viewport
+  class="scroll-viewport"
+  [itemSize]="itemSize()"
+  [style.height.px]="itemSize() * itemsVisible()"
+  [style.--item-height.px]="itemSize()"
+>
+  <div class="grid-layout" [style.--columns]="gridColumns()">
+    @if (headers()) {
+      <div class="header">
+        @for (header of headers(); track header) {
+          @if (headerRowKeyMap().has(header)) {
+            <div
+              class="cell clickable"
+              [class]="headerSorting().get(header)"
+              (pointerdown)="setSorting(headerRowKeyMap().get(header))"
+            >
+              {{ header }}
+            </div>
+          } @else {
+            <div class="cell">{{ header }}</div>
+          }
+        }
+      </div>
+    }
+
+    <div
+      *cdkVirtualFor="let row of rows(); let isFirst = first; let isLast = last"
+      class="row list-item clickable"
+      [class.is-selected]="selection().has(row.item.id)"
+      [class.first-row]="isFirst"
+      [class.last-row]="isLast"
+      (pointerdown)="actionItem($event, row.item)"
+    >
+      @for (cell of row.cells; track $index) {
+        <div class="cell">{{ cell }}</div>
+      }
+    </div>
+
+  </div>
+
+  @if (!rows().length) {
+    <div class="row-empty-state">No items</div>
+  }
+
+</cdk-virtual-scroll-viewport>
+
+@if (showSelectionTools()) {
+  <button (click)="selectAll()">All</button>
+  <button (click)="selectNone()">None</button>
+}

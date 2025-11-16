@@ -1,0 +1,93 @@
+$nugget-size: 25px;
+
+@keyframes kf-sliding-width {
+  0% { left: -$nugget-size }
+  100% { left: 100% }
+}
+
+@keyframes kf-sliding-height {
+  0% { top: -$nugget-size }
+  100% { top: 100% }
+}
+
+@keyframes kf-fade-in {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+%filler {
+  --fade-duration: .3s;
+  --width-duration: .3s;
+
+  @property --width-duration-override {
+    syntax: '<time>';
+    inherits: false;
+    initial-value: unset;
+  }
+
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #000a;
+    transition: var(--width-duration-override, var(--width-duration)) ease-out;
+    animation: kf-fade-in var(--fade-duration) ease-in;
+  }
+}
+
+.bar {
+  --thickness: 1rem;
+  background: #0003;
+
+  overflow: hidden;
+  @extend %filler;
+
+  @property --value {
+    syntax: '<length>';
+    inherits: false;
+    initial-value: 50%;
+  }
+
+  &.horizontal {
+    height: var(--thickness);
+
+    &.valid {
+      &:before {
+        width: var(--value);
+      }
+    }
+
+    &.invalid {
+      &:before {
+        width: $nugget-size;
+        animation: kf-fade-in var(--fade-duration) ease-in,
+        kf-sliding-width infinite 1s ease-in-out alternate-reverse;
+      }
+    }
+  }
+
+  &.vertical {
+    height: 100%;
+    width: var(--thickness);
+
+    &.valid {
+      &:before {
+        height: var(--value);
+      }
+    }
+
+    &.invalid {
+      &:before {
+        height: $nugget-size;
+        animation: kf-fade-in var(--fade-duration) ease-in,
+        kf-sliding-height infinite 1s ease-in-out alternate-reverse;
+      }
+    }
+  }
+
+}
+

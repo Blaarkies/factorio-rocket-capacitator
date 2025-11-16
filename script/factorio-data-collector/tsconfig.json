@@ -1,0 +1,9 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "skipLibCheck": true
+  },
+  "include": [
+    "main.ts"
+  ]
+}

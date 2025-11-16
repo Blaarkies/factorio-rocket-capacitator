@@ -1,0 +1,19 @@
+.pn-layout {
+  display: flex;
+  gap: 6px;
+
+  a {
+    font-size: 36px;
+    width: 48px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+
+    background: #0001;
+  }
+
+}

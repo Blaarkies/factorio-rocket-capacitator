@@ -1,0 +1,14 @@
+.mobile-stretch-container {
+  width: 100svw;
+  height: 100svh;
+}
+
+.debug-dev-container {
+  // Mock mobile viewport for rough design layouts
+  --mod: .37;
+  width: calc(1080px * var(--mod));
+  height: calc(2400px * var(--mod));
+  outline: 1px dashed magenta;
+  margin-top: 4px;
+  margin-left: 10px;
+}

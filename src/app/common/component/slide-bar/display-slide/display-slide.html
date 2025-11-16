@@ -1,0 +1,9 @@
+@let noValueClass = value() === undefined ? 'invalid' : 'valid';
+@let orientationClass = orientation() === 'h' ? 'horizontal' : 'vertical';
+
+<div
+  data-clickable
+  class="bar"
+  [class]="[noValueClass, orientationClass]"
+  [style.--value.%]="value() * 100"
+></div>

@@ -1,0 +1,9 @@
+@if (isMobile()) {
+  <div class="mobile-stretch-container">
+    <router-outlet/>
+  </div>
+} @else {
+  <div [class.debug-dev-container]="IS_DEBUG">
+    <router-outlet/>
+  </div>
+}
