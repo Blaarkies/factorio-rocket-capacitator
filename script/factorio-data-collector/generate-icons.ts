@@ -2,8 +2,7 @@ import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import sharp from 'sharp';
 import { getScriptPaths } from './common/path.ts';
-import { getAsset } from './common/disk.ts';
-import type { EnrichedItem } from './enrich/type.ts';
+import { collectData } from './collect-data.ts';
 
 (async () => {
   let start = performance.now();
@@ -16,9 +15,7 @@ import type { EnrichedItem } from './enrich/type.ts';
     mkdirSync(iconDestinationPath);
   }
 
-  let itemsContent = await getAsset(
-    join(pathToDataAsset, 'enriched-items.json'));
-  let items: EnrichedItem[] = JSON.parse(itemsContent);
+  let items = await collectData({withIconPaths: true});
 
   for (let item of items) {
     let iconPath = item.icon.split('/').slice(3).join('/');

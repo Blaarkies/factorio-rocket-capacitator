@@ -61,11 +61,15 @@ export function applyDataUpdates(
     recipes.map(i => [i.name, i]));
 
   for (let update of dataUpdates) {
-    let {recipeName, propertyName, value, indexed} = update;
+    let {recipeName, propertyName, value, indexed, inserted} = update;
 
     let oldRecipe = recipeNameMap.get(recipeName);
     if (indexed >= 0) {
       oldRecipe[propertyName][indexed] = value;
+      continue;
+    }
+    if (inserted) {
+      oldRecipe[propertyName].push(value);
       continue;
     }
 

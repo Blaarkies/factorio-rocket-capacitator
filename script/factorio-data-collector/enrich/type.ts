@@ -3,10 +3,10 @@ export type EnrichedItem = {
   type: string
   name: string
   subgroup: string
-  icon: string
   stackSize: number
   rocketCapacity: number
   alternatives: Alternative[]
+  icon?: string
 }
 
 /** Resembles a recipe with info to scale up to a full rocket payload */

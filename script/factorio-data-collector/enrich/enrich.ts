@@ -133,7 +133,8 @@ function getItemRecipeMaps(items: FactorioItem[], recipes: FactorioRecipe[])
 
 export function getEnrichedItems(
   items: FactorioItem[],
-  recipes: FactorioRecipe[]): EnrichedItem[] {
+  recipes: FactorioRecipe[],
+  withIconPaths: boolean): EnrichedItem[] {
 
   let {itemRecipeMap, itemNameMap} = getItemRecipeMaps(items, recipes);
 
@@ -146,7 +147,7 @@ export function getEnrichedItems(
         type: item.type,
         name: item.name,
         subgroup: item.subgroup,
-        icon: item.icon,
+        icon: withIconPaths ? item.icon : undefined,
         stackSize: item.stack_size,
         rocketCapacity: rocketLiftWeight / item.weight,
         alternatives,

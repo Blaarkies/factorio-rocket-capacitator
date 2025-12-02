@@ -3,7 +3,6 @@
     "type": "item",
     "name": "stone-brick",
     "subgroup": "terrain",
-    "icon": "__base__/graphics/icons/stone-brick.png",
     "stackSize": 100,
     "rocketCapacity": 500,
     "alternatives": [
@@ -24,7 +23,6 @@
     "type": "item",
     "name": "wood",
     "subgroup": "raw-resource",
-    "icon": "__base__/graphics/icons/wood.png",
     "stackSize": 100,
     "rocketCapacity": 500,
     "alternatives": []
@@ -33,7 +31,6 @@
     "type": "item",
     "name": "coal",
     "subgroup": "raw-resource",
-    "icon": "__base__/graphics/icons/coal.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": []
@@ -42,7 +39,6 @@
     "type": "item",
     "name": "stone",
     "subgroup": "raw-resource",
-    "icon": "__base__/graphics/icons/stone.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": [
@@ -63,7 +59,6 @@
     "type": "item",
     "name": "iron-ore",
     "subgroup": "raw-resource",
-    "icon": "__base__/graphics/icons/iron-ore.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": [
@@ -95,7 +90,6 @@
     "type": "item",
     "name": "copper-ore",
     "subgroup": "raw-resource",
-    "icon": "__base__/graphics/icons/copper-ore.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": [
@@ -116,7 +110,6 @@
     "type": "item",
     "name": "iron-plate",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/iron-plate.png",
     "stackSize": 100,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -137,7 +130,6 @@
     "type": "item",
     "name": "copper-plate",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/copper-plate.png",
     "stackSize": 100,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -158,7 +150,6 @@
     "type": "item",
     "name": "copper-cable",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/copper-cable.png",
     "stackSize": 200,
     "rocketCapacity": 4000,
     "alternatives": [
@@ -190,7 +181,6 @@
     "type": "item",
     "name": "iron-stick",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/iron-stick.png",
     "stackSize": 100,
     "rocketCapacity": 2000,
     "alternatives": [
@@ -211,7 +201,6 @@
     "type": "item",
     "name": "iron-gear-wheel",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/iron-gear-wheel.png",
     "stackSize": 100,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -243,7 +232,6 @@
     "type": "item",
     "name": "electronic-circuit",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/electronic-circuit.png",
     "stackSize": 200,
     "rocketCapacity": 2000,
     "alternatives": [
@@ -269,7 +257,6 @@
     "type": "item",
     "name": "wooden-chest",
     "subgroup": "storage",
-    "icon": "__base__/graphics/icons/wooden-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -290,7 +277,6 @@
     "type": "item",
     "name": "stone-furnace",
     "subgroup": "smelting-machine",
-    "icon": "__base__/graphics/icons/stone-furnace.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -311,7 +297,6 @@
     "type": "item",
     "name": "burner-mining-drill",
     "subgroup": "extraction-machine",
-    "icon": "__base__/graphics/icons/burner-mining-drill.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -342,7 +327,6 @@
     "type": "item",
     "name": "electric-mining-drill",
     "subgroup": "extraction-machine",
-    "icon": "__base__/graphics/icons/electric-mining-drill.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -373,7 +357,6 @@
     "type": "item",
     "name": "burner-inserter",
     "subgroup": "inserter",
-    "icon": "__base__/graphics/icons/burner-inserter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -399,7 +382,6 @@
     "type": "item",
     "name": "inserter",
     "subgroup": "inserter",
-    "icon": "__base__/graphics/icons/inserter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -430,7 +412,6 @@
     "type": "item",
     "name": "fast-inserter",
     "subgroup": "inserter",
-    "icon": "__base__/graphics/icons/fast-inserter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -461,7 +442,6 @@
     "type": "item",
     "name": "long-handed-inserter",
     "subgroup": "inserter",
-    "icon": "__base__/graphics/icons/long-handed-inserter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -492,7 +472,6 @@
     "type": "item",
     "name": "offshore-pump",
     "subgroup": "extraction-machine",
-    "icon": "__base__/graphics/icons/offshore-pump.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -518,7 +497,6 @@
     "type": "item",
     "name": "pipe",
     "subgroup": "energy-pipe-distribution",
-    "icon": "__base__/graphics/icons/pipe.png",
     "stackSize": 100,
     "rocketCapacity": 200,
     "alternatives": [
@@ -539,7 +517,6 @@
     "type": "item",
     "name": "boiler",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/boiler.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -565,7 +542,6 @@
     "type": "item",
     "name": "steam-engine",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/steam-engine.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -596,7 +572,6 @@
     "type": "item",
     "name": "small-electric-pole",
     "subgroup": "energy-pipe-distribution",
-    "icon": "__base__/graphics/icons/small-electric-pole.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -622,7 +597,6 @@
     "type": "item",
     "name": "radar",
     "subgroup": "defensive-structure",
-    "icon": "__base__/graphics/icons/radar.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -653,7 +627,6 @@
     "type": "item",
     "name": "small-lamp",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/small-lamp.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -684,7 +657,6 @@
     "type": "item",
     "name": "pipe-to-ground",
     "subgroup": "energy-pipe-distribution",
-    "icon": "__base__/graphics/icons/pipe-to-ground.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -710,7 +682,6 @@
     "type": "item",
     "name": "assembling-machine-1",
     "subgroup": "production-machine",
-    "icon": "__base__/graphics/icons/assembling-machine-1.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -741,7 +712,6 @@
     "type": "item",
     "name": "assembling-machine-2",
     "subgroup": "production-machine",
-    "icon": "__base__/graphics/icons/assembling-machine-2.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -777,7 +747,6 @@
     "type": "item",
     "name": "red-wire",
     "subgroup": "spawnables",
-    "icon": "__base__/graphics/icons/shortcut-toolbar/mip/new-red-wire-x56.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -786,7 +755,6 @@
     "type": "item",
     "name": "green-wire",
     "subgroup": "spawnables",
-    "icon": "__base__/graphics/icons/shortcut-toolbar/mip/new-green-wire-x56.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -795,7 +763,6 @@
     "type": "item",
     "name": "copper-wire",
     "subgroup": "spawnables",
-    "icon": "__base__/graphics/icons/shortcut-toolbar/mip/new-copper-wire-x56.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -804,7 +771,6 @@
     "type": "capsule",
     "name": "raw-fish",
     "subgroup": "raw-resource",
-    "icon": "__base__/graphics/icons/fish.png",
     "stackSize": 100,
     "rocketCapacity": 300,
     "alternatives": []
@@ -813,7 +779,6 @@
     "type": "repair-tool",
     "name": "repair-pack",
     "subgroup": "tool",
-    "icon": "__base__/graphics/icons/repair-pack.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -839,7 +804,6 @@
     "type": "item",
     "name": "stone-wall",
     "subgroup": "defensive-structure",
-    "icon": "__base__/graphics/icons/wall.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -860,7 +824,6 @@
     "type": "item",
     "name": "lab",
     "subgroup": "production-machine",
-    "icon": "__base__/graphics/icons/lab.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -891,7 +854,6 @@
     "type": "blueprint",
     "name": "blueprint",
     "subgroup": "tool",
-    "icon": "__base__/graphics/icons/blueprint.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -900,7 +862,6 @@
     "type": "tool",
     "name": "automation-science-pack",
     "subgroup": "science-pack",
-    "icon": "__base__/graphics/icons/automation-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -926,7 +887,6 @@
     "type": "tool",
     "name": "logistic-science-pack",
     "subgroup": "science-pack",
-    "icon": "__base__/graphics/icons/logistic-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -952,7 +912,6 @@
     "type": "item",
     "name": "steel-plate",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/steel-plate.png",
     "stackSize": 100,
     "rocketCapacity": 400,
     "alternatives": [
@@ -984,7 +943,6 @@
     "type": "item-with-entity-data",
     "name": "car",
     "subgroup": "transport",
-    "icon": "__base__/graphics/icons/car.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -1015,7 +973,6 @@
     "type": "item",
     "name": "engine-unit",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/engine-unit.png",
     "stackSize": 50,
     "rocketCapacity": 400,
     "alternatives": [
@@ -1046,7 +1003,6 @@
     "type": "item",
     "name": "electric-furnace",
     "subgroup": "smelting-machine",
-    "icon": "__base__/graphics/icons/electric-furnace.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1077,7 +1033,6 @@
     "type": "item",
     "name": "solid-fuel",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/solid-fuel.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -1098,7 +1053,6 @@
     "type": "item",
     "name": "rocket-fuel",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/rocket-fuel.png",
     "stackSize": 20,
     "rocketCapacity": 100,
     "alternatives": []
@@ -1107,7 +1061,6 @@
     "type": "item",
     "name": "iron-chest",
     "subgroup": "storage",
-    "icon": "__base__/graphics/icons/iron-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1128,7 +1081,6 @@
     "type": "item",
     "name": "big-electric-pole",
     "subgroup": "energy-pipe-distribution",
-    "icon": "__base__/graphics/icons/big-electric-pole.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1159,7 +1111,6 @@
     "type": "item",
     "name": "medium-electric-pole",
     "subgroup": "energy-pipe-distribution",
-    "icon": "__base__/graphics/icons/medium-electric-pole.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1190,7 +1141,6 @@
     "type": "capsule",
     "name": "grenade",
     "subgroup": "capsule",
-    "icon": "__base__/graphics/icons/grenade.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1216,7 +1166,6 @@
     "type": "item",
     "name": "steel-furnace",
     "subgroup": "smelting-machine",
-    "icon": "__base__/graphics/icons/steel-furnace.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1242,7 +1191,6 @@
     "type": "item",
     "name": "gate",
     "subgroup": "defensive-structure",
-    "icon": "__base__/graphics/icons/gate.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1273,7 +1221,6 @@
     "type": "item",
     "name": "steel-chest",
     "subgroup": "storage",
-    "icon": "__base__/graphics/icons/steel-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1294,7 +1241,6 @@
     "type": "item",
     "name": "solar-panel",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/solar-panel.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1325,7 +1271,6 @@
     "type": "item-with-entity-data",
     "name": "locomotive",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/locomotive.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -1356,7 +1301,6 @@
     "type": "item-with-entity-data",
     "name": "cargo-wagon",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/cargo-wagon.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -1387,7 +1331,6 @@
     "type": "rail-planner",
     "name": "rail",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/rail.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1418,7 +1361,6 @@
     "type": "item",
     "name": "train-stop",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/train-stop.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -1454,7 +1396,6 @@
     "type": "item",
     "name": "rail-signal",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/rail-signal.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1480,7 +1421,6 @@
     "type": "item",
     "name": "rail-chain-signal",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/rail-chain-signal.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1506,7 +1446,6 @@
     "type": "item",
     "name": "concrete",
     "subgroup": "terrain",
-    "icon": "__base__/graphics/icons/concrete.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1527,7 +1466,6 @@
     "type": "item",
     "name": "refined-concrete",
     "subgroup": "terrain",
-    "icon": "__base__/graphics/icons/refined-concrete.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": []
@@ -1536,7 +1474,6 @@
     "type": "item",
     "name": "hazard-concrete",
     "subgroup": "terrain",
-    "icon": "__base__/graphics/icons/hazard-concrete.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1557,7 +1494,6 @@
     "type": "item",
     "name": "refined-hazard-concrete",
     "subgroup": "terrain",
-    "icon": "__base__/graphics/icons/refined-hazard-concrete.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1578,7 +1514,6 @@
     "type": "item",
     "name": "landfill",
     "subgroup": "terrain",
-    "icon": "__base__/graphics/icons/landfill.png",
     "stackSize": 100,
     "rocketCapacity": 20,
     "alternatives": [
@@ -1599,7 +1534,6 @@
     "type": "item",
     "name": "accumulator",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/accumulator.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1625,7 +1559,6 @@
     "type": "item",
     "name": "uranium-ore",
     "subgroup": "raw-resource",
-    "icon": "__base__/graphics/icons/uranium-ore.png",
     "stackSize": 50,
     "rocketCapacity": 200,
     "alternatives": []
@@ -1634,7 +1567,6 @@
     "type": "capsule",
     "name": "defender-capsule",
     "subgroup": "capsule",
-    "icon": "__base__/graphics/icons/defender-capsule.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1665,7 +1597,6 @@
     "type": "item",
     "name": "transport-belt",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/transport-belt.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1691,7 +1622,6 @@
     "type": "item",
     "name": "fast-transport-belt",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/fast-transport-belt.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -1717,7 +1647,6 @@
     "type": "item",
     "name": "express-transport-belt",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/express-transport-belt.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": []
@@ -1726,7 +1655,6 @@
     "type": "item",
     "name": "bulk-inserter",
     "subgroup": "inserter",
-    "icon": "__base__/graphics/icons/bulk-inserter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -1762,7 +1690,6 @@
     "type": "item",
     "name": "assembling-machine-3",
     "subgroup": "production-machine",
-    "icon": "__base__/graphics/icons/assembling-machine-3.png",
     "stackSize": 50,
     "rocketCapacity": 25,
     "alternatives": [
@@ -1788,7 +1715,6 @@
     "type": "item-with-entity-data",
     "name": "fluid-wagon",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/fluid-wagon.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -1824,7 +1750,6 @@
     "type": "item-with-entity-data",
     "name": "artillery-wagon",
     "subgroup": "train-transport",
-    "icon": "__base__/graphics/icons/artillery-wagon.png",
     "stackSize": 5,
     "rocketCapacity": 1.8808777429467085,
     "alternatives": [
@@ -1865,7 +1790,6 @@
     "type": "item-with-entity-data",
     "name": "tank",
     "subgroup": "transport",
-    "icon": "__base__/graphics/icons/tank.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -1901,7 +1825,6 @@
     "type": "tool",
     "name": "chemical-science-pack",
     "subgroup": "science-pack",
-    "icon": "__base__/graphics/icons/chemical-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -1932,7 +1855,6 @@
     "type": "tool",
     "name": "military-science-pack",
     "subgroup": "science-pack",
-    "icon": "__base__/graphics/icons/military-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -1963,7 +1885,6 @@
     "type": "tool",
     "name": "production-science-pack",
     "subgroup": "science-pack",
-    "icon": "__base__/graphics/icons/production-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -1994,7 +1915,6 @@
     "type": "tool",
     "name": "utility-science-pack",
     "subgroup": "science-pack",
-    "icon": "__base__/graphics/icons/utility-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -2025,7 +1945,6 @@
     "type": "tool",
     "name": "space-science-pack",
     "subgroup": "science-pack",
-    "icon": "__base__/graphics/icons/space-science-pack.png",
     "stackSize": 2000,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -2056,7 +1975,6 @@
     "type": "item",
     "name": "underground-belt",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/underground-belt.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2082,7 +2000,6 @@
     "type": "item",
     "name": "fast-underground-belt",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/fast-underground-belt.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2108,7 +2025,6 @@
     "type": "item",
     "name": "express-underground-belt",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/express-underground-belt.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": []
@@ -2117,7 +2033,6 @@
     "type": "item",
     "name": "splitter",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/splitter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2148,7 +2063,6 @@
     "type": "item",
     "name": "fast-splitter",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/fast-splitter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2179,7 +2093,6 @@
     "type": "item",
     "name": "express-splitter",
     "subgroup": "belt",
-    "icon": "__base__/graphics/icons/express-splitter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": []
@@ -2188,7 +2101,6 @@
     "type": "item",
     "name": "advanced-circuit",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/advanced-circuit.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -2230,7 +2142,6 @@
     "type": "item",
     "name": "processing-unit",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/processing-unit.png",
     "stackSize": 100,
     "rocketCapacity": 300,
     "alternatives": [
@@ -2251,7 +2162,6 @@
     "type": "item",
     "name": "logistic-robot",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/logistic-robot.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2277,7 +2187,6 @@
     "type": "item",
     "name": "construction-robot",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/construction-robot.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2303,7 +2212,6 @@
     "type": "item",
     "name": "passive-provider-chest",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/passive-provider-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2334,7 +2242,6 @@
     "type": "item",
     "name": "active-provider-chest",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/active-provider-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2365,7 +2272,6 @@
     "type": "item",
     "name": "storage-chest",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/storage-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2396,7 +2302,6 @@
     "type": "item",
     "name": "buffer-chest",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/buffer-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2427,7 +2332,6 @@
     "type": "item",
     "name": "requester-chest",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/requester-chest.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2458,7 +2362,6 @@
     "type": "item",
     "name": "rocket-silo",
     "subgroup": "space-related",
-    "icon": "__base__/graphics/icons/rocket-silo.png",
     "stackSize": 1,
     "rocketCapacity": 0.1,
     "alternatives": [
@@ -2499,7 +2402,6 @@
     "type": "item",
     "name": "cargo-landing-pad",
     "subgroup": "space-related",
-    "icon": "__base__/graphics/icons/cargo-landing-pad.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -2530,7 +2432,6 @@
     "type": "item",
     "name": "roboport",
     "subgroup": "logistic-network",
-    "icon": "__base__/graphics/icons/roboport.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -2561,7 +2462,6 @@
     "type": "item",
     "name": "substation",
     "subgroup": "energy-pipe-distribution",
-    "icon": "__base__/graphics/icons/substation.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2592,7 +2492,6 @@
     "type": "item",
     "name": "beacon",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/beacon.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -2628,7 +2527,6 @@
     "type": "item",
     "name": "storage-tank",
     "subgroup": "storage",
-    "icon": "__base__/graphics/icons/storage-tank.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2654,7 +2552,6 @@
     "type": "item",
     "name": "pump",
     "subgroup": "energy-pipe-distribution",
-    "icon": "__base__/graphics/icons/pump.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -2685,7 +2582,6 @@
     "type": "upgrade-item",
     "name": "upgrade-planner",
     "subgroup": "tool",
-    "icon": "__base__/graphics/icons/upgrade-planner.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -2694,7 +2590,6 @@
     "type": "deconstruction-item",
     "name": "deconstruction-planner",
     "subgroup": "tool",
-    "icon": "__base__/graphics/icons/deconstruction-planner.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -2703,7 +2598,6 @@
     "type": "blueprint-book",
     "name": "blueprint-book",
     "subgroup": "tool",
-    "icon": "__base__/graphics/icons/blueprint-book.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -2712,7 +2606,6 @@
     "type": "item",
     "name": "pumpjack",
     "subgroup": "extraction-machine",
-    "icon": "__base__/graphics/icons/pumpjack.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -2748,7 +2641,6 @@
     "type": "item",
     "name": "oil-refinery",
     "subgroup": "production-machine",
-    "icon": "__base__/graphics/icons/oil-refinery.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -2789,7 +2681,6 @@
     "type": "item",
     "name": "chemical-plant",
     "subgroup": "production-machine",
-    "icon": "__base__/graphics/icons/chemical-plant.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -2825,7 +2716,6 @@
     "type": "item",
     "name": "sulfur",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/sulfur.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -2862,7 +2752,6 @@
     "type": "item",
     "name": "barrel",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png",
     "stackSize": 10,
     "rocketCapacity": 200,
     "alternatives": [
@@ -2883,7 +2772,6 @@
     "type": "item",
     "name": "plastic-bar",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/plastic-bar.png",
     "stackSize": 100,
     "rocketCapacity": 2000,
     "alternatives": [
@@ -2909,7 +2797,6 @@
     "type": "item",
     "name": "electric-engine-unit",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/electric-engine-unit.png",
     "stackSize": 50,
     "rocketCapacity": 400,
     "alternatives": []
@@ -2918,7 +2805,6 @@
     "type": "item",
     "name": "explosives",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/explosives.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": []
@@ -2927,7 +2813,6 @@
     "type": "item",
     "name": "battery",
     "subgroup": "raw-material",
-    "icon": "__base__/graphics/icons/battery.png",
     "stackSize": 200,
     "rocketCapacity": 400,
     "alternatives": [
@@ -2948,7 +2833,6 @@
     "type": "item",
     "name": "flying-robot-frame",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/flying-robot-frame.png",
     "stackSize": 50,
     "rocketCapacity": 150,
     "alternatives": [
@@ -2984,7 +2868,6 @@
     "type": "item",
     "name": "low-density-structure",
     "subgroup": "intermediate-product",
-    "icon": "__base__/graphics/icons/low-density-structure.png",
     "stackSize": 50,
     "rocketCapacity": 200,
     "alternatives": [
@@ -3026,7 +2909,6 @@
     "type": "item",
     "name": "nuclear-fuel",
     "subgroup": "uranium-processing",
-    "icon": "__base__/graphics/icons/nuclear-fuel.png",
     "stackSize": 1,
     "rocketCapacity": 10,
     "alternatives": [
@@ -3052,7 +2934,6 @@
     "type": "item",
     "name": "satellite",
     "subgroup": "space-related",
-    "icon": "__base__/graphics/icons/satellite.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -3098,7 +2979,6 @@
     "type": "item-with-entity-data",
     "name": "spidertron",
     "subgroup": "transport",
-    "icon": "__base__/graphics/icons/spidertron.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -3109,42 +2989,27 @@
           {
             "name": "exoskeleton-equipment",
             "amount": 4,
-            "weightRatio": 0.1264980026631158
+            "weightRatio": 0.32986111111111105
           },
           {
             "name": "fission-reactor-equipment",
             "amount": 2,
-            "weightRatio": 0.19973368841544606
+            "weightRatio": 0.5208333333333334
           },
           {
-            "name": "rocket-launcher",
-            "amount": 4,
-            "weightRatio": 0.3195739014647137
-          },
-          {
-            "name": "processing-unit",
-            "amount": 16,
-            "weightRatio": 0.021304926764314246
-          },
-          {
-            "name": "low-density-structure",
-            "amount": 150,
-            "weightRatio": 0.2996005326231691
+            "name": "rocket-turret",
+            "amount": 1,
+            "weightRatio": 0.10416666666666667
           },
           {
             "name": "radar",
             "amount": 2,
-            "weightRatio": 0.015978695073235686
-          },
-          {
-            "name": "efficiency-module-3",
-            "amount": 2,
-            "weightRatio": 0.015978695073235686
+            "weightRatio": 0.041666666666666664
           },
           {
             "name": "raw-fish",
             "amount": 1,
-            "weightRatio": 0.0013315579227696404
+            "weightRatio": 0.0034722222222222225
           }
         ]
       }
@@ -3154,7 +3019,6 @@
     "type": "spidertron-remote",
     "name": "spidertron-remote",
     "subgroup": "spawnables",
-    "icon": "__base__/graphics/icons/spidertron-remote.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -3163,7 +3027,6 @@
     "type": "item",
     "name": "nuclear-reactor",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/nuclear-reactor.png",
     "stackSize": 10,
     "rocketCapacity": 1,
     "alternatives": [
@@ -3199,7 +3062,6 @@
     "type": "item",
     "name": "uranium-235",
     "subgroup": "uranium-processing",
-    "icon": "__base__/graphics/icons/uranium-235.png",
     "stackSize": 100,
     "rocketCapacity": 20,
     "alternatives": [
@@ -3236,7 +3098,6 @@
     "type": "item",
     "name": "uranium-238",
     "subgroup": "uranium-processing",
-    "icon": "__base__/graphics/icons/uranium-238.png",
     "stackSize": 100,
     "rocketCapacity": 20,
     "alternatives": [
@@ -3284,7 +3145,6 @@
     "type": "item",
     "name": "centrifuge",
     "subgroup": "production-machine",
-    "icon": "__base__/graphics/icons/centrifuge.png",
     "stackSize": 50,
     "rocketCapacity": 1.509433962264151,
     "alternatives": [
@@ -3320,7 +3180,6 @@
     "type": "item",
     "name": "uranium-fuel-cell",
     "subgroup": "uranium-processing",
-    "icon": "__base__/graphics/icons/uranium-fuel-cell.png",
     "stackSize": 50,
     "rocketCapacity": 10,
     "alternatives": [
@@ -3351,7 +3210,6 @@
     "type": "item",
     "name": "depleted-uranium-fuel-cell",
     "subgroup": "uranium-processing",
-    "icon": "__base__/graphics/icons/depleted-uranium-fuel-cell.png",
     "stackSize": 50,
     "rocketCapacity": 10,
     "alternatives": []
@@ -3360,7 +3218,6 @@
     "type": "item",
     "name": "heat-exchanger",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/heat-boiler.png",
     "stackSize": 50,
     "rocketCapacity": 25,
     "alternatives": [
@@ -3391,7 +3248,6 @@
     "type": "item",
     "name": "steam-turbine",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/steam-turbine.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -3422,7 +3278,6 @@
     "type": "item",
     "name": "heat-pipe",
     "subgroup": "energy",
-    "icon": "__base__/graphics/icons/heat-pipe.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3448,7 +3303,6 @@
     "type": "module",
     "name": "speed-module",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/speed-module.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3474,7 +3328,6 @@
     "type": "module",
     "name": "speed-module-2",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/speed-module-2.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3505,7 +3358,6 @@
     "type": "module",
     "name": "speed-module-3",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/speed-module-3.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3516,17 +3368,22 @@
           {
             "name": "speed-module-2",
             "amount": 4,
-            "weightRatio": 0.7868852459016394
+            "weightRatio": 0.7717041800643087
           },
           {
             "name": "advanced-circuit",
             "amount": 5,
-            "weightRatio": 0.049180327868852465
+            "weightRatio": 0.048231511254019296
           },
           {
             "name": "processing-unit",
             "amount": 5,
-            "weightRatio": 0.16393442622950818
+            "weightRatio": 0.1607717041800643
+          },
+          {
+            "name": "tungsten-carbide",
+            "amount": 1,
+            "weightRatio": 0.01929260450160772
           }
         ]
       }
@@ -3536,7 +3393,6 @@
     "type": "module",
     "name": "efficiency-module",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/efficiency-module.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3562,7 +3418,6 @@
     "type": "module",
     "name": "efficiency-module-2",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/efficiency-module-2.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3593,7 +3448,6 @@
     "type": "module",
     "name": "efficiency-module-3",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/efficiency-module-3.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3604,17 +3458,22 @@
           {
             "name": "efficiency-module-2",
             "amount": 4,
-            "weightRatio": 0.7868852459016394
+            "weightRatio": 0.7680000000000001
           },
           {
             "name": "advanced-circuit",
             "amount": 5,
-            "weightRatio": 0.049180327868852465
+            "weightRatio": 0.04800000000000001
           },
           {
             "name": "processing-unit",
             "amount": 5,
-            "weightRatio": 0.16393442622950818
+            "weightRatio": 0.16
+          },
+          {
+            "name": "spoilage",
+            "amount": 5,
+            "weightRatio": 0.024000000000000004
           }
         ]
       }
@@ -3624,7 +3483,6 @@
     "type": "module",
     "name": "productivity-module",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/productivity-module.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3650,7 +3508,6 @@
     "type": "module",
     "name": "productivity-module-2",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/productivity-module-2.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3681,7 +3538,6 @@
     "type": "module",
     "name": "productivity-module-3",
     "subgroup": "module",
-    "icon": "__base__/graphics/icons/productivity-module-3.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3692,17 +3548,22 @@
           {
             "name": "productivity-module-2",
             "amount": 4,
-            "weightRatio": 0.7868852459016394
+            "weightRatio": 0.7717041800643087
           },
           {
             "name": "advanced-circuit",
             "amount": 5,
-            "weightRatio": 0.049180327868852465
+            "weightRatio": 0.048231511254019296
           },
           {
             "name": "processing-unit",
             "amount": 5,
-            "weightRatio": 0.16393442622950818
+            "weightRatio": 0.1607717041800643
+          },
+          {
+            "name": "biter-egg",
+            "amount": 1,
+            "weightRatio": 0.01929260450160772
           }
         ]
       }
@@ -3712,7 +3573,6 @@
     "type": "ammo",
     "name": "uranium-rounds-magazine",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/uranium-rounds-magazine.png",
     "stackSize": 100,
     "rocketCapacity": 25,
     "alternatives": [
@@ -3738,7 +3598,6 @@
     "type": "ammo",
     "name": "flamethrower-ammo",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/flamethrower-ammo.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": []
@@ -3747,7 +3606,6 @@
     "type": "ammo",
     "name": "rocket",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/rocket.png",
     "stackSize": 100,
     "rocketCapacity": 25,
     "alternatives": [
@@ -3773,7 +3631,6 @@
     "type": "ammo",
     "name": "explosive-rocket",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/explosive-rocket.png",
     "stackSize": 100,
     "rocketCapacity": 25,
     "alternatives": [
@@ -3799,7 +3656,6 @@
     "type": "ammo",
     "name": "atomic-bomb",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/atomic-bomb.png",
     "stackSize": 10,
     "rocketCapacity": 0.6666666666666666,
     "alternatives": [
@@ -3830,7 +3686,6 @@
     "type": "ammo",
     "name": "piercing-shotgun-shell",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/piercing-shotgun-shell.png",
     "stackSize": 100,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3861,7 +3716,6 @@
     "type": "ammo",
     "name": "cannon-shell",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/cannon-shell.png",
     "stackSize": 100,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3892,7 +3746,6 @@
     "type": "ammo",
     "name": "explosive-cannon-shell",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/explosive-cannon-shell.png",
     "stackSize": 100,
     "rocketCapacity": 50,
     "alternatives": [
@@ -3923,7 +3776,6 @@
     "type": "ammo",
     "name": "uranium-cannon-shell",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/uranium-cannon-shell.png",
     "stackSize": 100,
     "rocketCapacity": 25,
     "alternatives": [
@@ -3949,7 +3801,6 @@
     "type": "ammo",
     "name": "explosive-uranium-cannon-shell",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/explosive-uranium-cannon-shell.png",
     "stackSize": 100,
     "rocketCapacity": 25,
     "alternatives": [
@@ -3975,7 +3826,6 @@
     "type": "ammo",
     "name": "artillery-shell",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/artillery-shell.png",
     "stackSize": 1,
     "rocketCapacity": 10,
     "alternatives": [
@@ -4011,7 +3861,6 @@
     "type": "gun",
     "name": "flamethrower",
     "subgroup": "gun",
-    "icon": "__base__/graphics/icons/flamethrower.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -4037,7 +3886,6 @@
     "type": "item",
     "name": "land-mine",
     "subgroup": "defensive-structure",
-    "icon": "__base__/graphics/icons/land-mine.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -4063,7 +3911,6 @@
     "type": "gun",
     "name": "rocket-launcher",
     "subgroup": "gun",
-    "icon": "__base__/graphics/icons/rocket-launcher.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -4094,7 +3941,6 @@
     "type": "gun",
     "name": "combat-shotgun",
     "subgroup": "gun",
-    "icon": "__base__/graphics/icons/combat-shotgun.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -4130,7 +3976,6 @@
     "type": "armor",
     "name": "modular-armor",
     "subgroup": "armor",
-    "icon": "__base__/graphics/icons/modular-armor.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -4156,7 +4001,6 @@
     "type": "armor",
     "name": "power-armor",
     "subgroup": "armor",
-    "icon": "__base__/graphics/icons/power-armor.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -4187,7 +4031,6 @@
     "type": "armor",
     "name": "power-armor-mk2",
     "subgroup": "armor",
-    "icon": "__base__/graphics/icons/power-armor-mk2.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -4228,7 +4071,6 @@
     "type": "capsule",
     "name": "cluster-grenade",
     "subgroup": "capsule",
-    "icon": "__base__/graphics/icons/cluster-grenade.png",
     "stackSize": 100,
     "rocketCapacity": 25,
     "alternatives": [
@@ -4259,7 +4101,6 @@
     "type": "capsule",
     "name": "poison-capsule",
     "subgroup": "capsule",
-    "icon": "__base__/graphics/icons/poison-capsule.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -4290,7 +4131,6 @@
     "type": "capsule",
     "name": "slowdown-capsule",
     "subgroup": "capsule",
-    "icon": "__base__/graphics/icons/slowdown-capsule.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -4321,7 +4161,6 @@
     "type": "capsule",
     "name": "distractor-capsule",
     "subgroup": "capsule",
-    "icon": "__base__/graphics/icons/distractor-capsule.png",
     "stackSize": 100,
     "rocketCapacity": 50,
     "alternatives": [
@@ -4347,7 +4186,6 @@
     "type": "capsule",
     "name": "destroyer-capsule",
     "subgroup": "capsule",
-    "icon": "__base__/graphics/icons/destroyer-capsule.png",
     "stackSize": 100,
     "rocketCapacity": 25,
     "alternatives": [
@@ -4378,7 +4216,6 @@
     "type": "capsule",
     "name": "cliff-explosives",
     "subgroup": "terrain",
-    "icon": "__base__/graphics/icons/cliff-explosives.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -4414,7 +4251,6 @@
     "type": "ammo",
     "name": "firearm-magazine",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/firearm-magazine.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -4435,7 +4271,6 @@
     "type": "ammo",
     "name": "piercing-rounds-magazine",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/piercing-rounds-magazine.png",
     "stackSize": 100,
     "rocketCapacity": 50,
     "alternatives": [
@@ -4466,7 +4301,6 @@
     "type": "ammo",
     "name": "shotgun-shell",
     "subgroup": "ammo",
-    "icon": "__base__/graphics/icons/shotgun-shell.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": [
@@ -4492,7 +4326,6 @@
     "type": "armor",
     "name": "light-armor",
     "subgroup": "armor",
-    "icon": "__base__/graphics/icons/light-armor.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -4513,7 +4346,6 @@
     "type": "armor",
     "name": "heavy-armor",
     "subgroup": "armor",
-    "icon": "__base__/graphics/icons/heavy-armor.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -4539,7 +4371,6 @@
     "type": "gun",
     "name": "pistol",
     "subgroup": "gun",
-    "icon": "__base__/graphics/icons/pistol.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -4565,7 +4396,6 @@
     "type": "gun",
     "name": "submachine-gun",
     "subgroup": "gun",
-    "icon": "__base__/graphics/icons/submachine-gun.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -4596,7 +4426,6 @@
     "type": "gun",
     "name": "shotgun",
     "subgroup": "gun",
-    "icon": "__base__/graphics/icons/shotgun.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -4632,7 +4461,6 @@
     "type": "item",
     "name": "solar-panel-equipment",
     "subgroup": "equipment",
-    "icon": "__base__/graphics/icons/solar-panel-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -4663,7 +4491,6 @@
     "type": "item",
     "name": "fission-reactor-equipment",
     "subgroup": "equipment",
-    "icon": "__base__/graphics/icons/fission-reactor-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 4,
     "alternatives": [
@@ -4694,7 +4521,6 @@
     "type": "item",
     "name": "battery-equipment",
     "subgroup": "equipment",
-    "icon": "__base__/graphics/icons/battery-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -4720,7 +4546,6 @@
     "type": "item",
     "name": "battery-mk2-equipment",
     "subgroup": "equipment",
-    "icon": "__base__/graphics/icons/battery-mk2-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 10,
     "alternatives": [
@@ -4751,7 +4576,6 @@
     "type": "item",
     "name": "belt-immunity-equipment",
     "subgroup": "utility-equipment",
-    "icon": "__base__/graphics/icons/belt-immunity-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -4777,7 +4601,6 @@
     "type": "item",
     "name": "exoskeleton-equipment",
     "subgroup": "utility-equipment",
-    "icon": "__base__/graphics/icons/exoskeleton-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 12.631578947368423,
     "alternatives": [
@@ -4808,7 +4631,6 @@
     "type": "item",
     "name": "personal-roboport-equipment",
     "subgroup": "utility-equipment",
-    "icon": "__base__/graphics/icons/personal-roboport-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 9.411764705882353,
     "alternatives": [
@@ -4844,7 +4666,6 @@
     "type": "item",
     "name": "personal-roboport-mk2-equipment",
     "subgroup": "utility-equipment",
-    "icon": "__base__/graphics/icons/personal-roboport-mk2-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 2.6740947075208914,
     "alternatives": [
@@ -4875,7 +4696,6 @@
     "type": "item",
     "name": "night-vision-equipment",
     "subgroup": "utility-equipment",
-    "icon": "__base__/graphics/icons/night-vision-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -4901,7 +4721,6 @@
     "type": "item",
     "name": "energy-shield-equipment",
     "subgroup": "military-equipment",
-    "icon": "__base__/graphics/icons/energy-shield-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -4927,7 +4746,6 @@
     "type": "item",
     "name": "energy-shield-mk2-equipment",
     "subgroup": "military-equipment",
-    "icon": "__base__/graphics/icons/energy-shield-mk2-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 10,
     "alternatives": [
@@ -4958,7 +4776,6 @@
     "type": "item",
     "name": "personal-laser-defense-equipment",
     "subgroup": "military-equipment",
-    "icon": "__base__/graphics/icons/personal-laser-defense-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 5,
     "alternatives": [
@@ -4989,7 +4806,6 @@
     "type": "item",
     "name": "discharge-defense-equipment",
     "subgroup": "military-equipment",
-    "icon": "__base__/graphics/icons/discharge-defense-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 4.2857142857142865,
     "alternatives": [
@@ -5020,7 +4836,6 @@
     "type": "capsule",
     "name": "discharge-defense-remote",
     "subgroup": "spawnables",
-    "icon": "__base__/graphics/icons/discharge-defense-equipment-controller.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -5029,7 +4844,6 @@
     "type": "item",
     "name": "gun-turret",
     "subgroup": "turret",
-    "icon": "__base__/graphics/icons/gun-turret.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -5060,7 +4874,6 @@
     "type": "item",
     "name": "laser-turret",
     "subgroup": "turret",
-    "icon": "__base__/graphics/icons/laser-turret.png",
     "stackSize": 50,
     "rocketCapacity": 25,
     "alternatives": [
@@ -5091,7 +4904,6 @@
     "type": "item",
     "name": "flamethrower-turret",
     "subgroup": "turret",
-    "icon": "__base__/graphics/icons/flamethrower-turret.png",
     "stackSize": 50,
     "rocketCapacity": 20,
     "alternatives": [
@@ -5127,7 +4939,6 @@
     "type": "item",
     "name": "artillery-turret",
     "subgroup": "turret",
-    "icon": "__base__/graphics/icons/artillery-turret.png",
     "stackSize": 10,
     "rocketCapacity": 5,
     "alternatives": [
@@ -5163,7 +4974,6 @@
     "type": "capsule",
     "name": "artillery-targeting-remote",
     "subgroup": "spawnables",
-    "icon": "__base__/graphics/icons/artillery-targeting-remote.png",
     "stackSize": 1,
     "rocketCapacity": 10000,
     "alternatives": []
@@ -5172,7 +4982,6 @@
     "type": "item",
     "name": "arithmetic-combinator",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/arithmetic-combinator.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -5198,7 +5007,6 @@
     "type": "item",
     "name": "decider-combinator",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/decider-combinator.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -5224,7 +5032,6 @@
     "type": "item",
     "name": "constant-combinator",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/constant-combinator.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -5250,7 +5057,6 @@
     "type": "item",
     "name": "selector-combinator",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/selector-combinator.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -5276,7 +5082,6 @@
     "type": "item",
     "name": "power-switch",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/power-switch.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5307,7 +5112,6 @@
     "type": "item",
     "name": "programmable-speaker",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/programmable-speaker.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5343,7 +5147,6 @@
     "type": "item",
     "name": "display-panel",
     "subgroup": "circuit-network",
-    "icon": "__base__/graphics/icons/display-panel.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5369,7 +5172,6 @@
     "type": "item",
     "name": "space-platform-foundation",
     "subgroup": "space-platform",
-    "icon": "__space-age__/graphics/icons/space-platform-foundation.png",
     "stackSize": 100,
     "rocketCapacity": 50,
     "alternatives": [
@@ -5395,7 +5197,6 @@
     "type": "tool",
     "name": "metallurgic-science-pack",
     "subgroup": "science-pack",
-    "icon": "__space-age__/graphics/icons/metallurgic-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": []
@@ -5404,7 +5205,6 @@
     "type": "tool",
     "name": "agricultural-science-pack",
     "subgroup": "science-pack",
-    "icon": "__space-age__/graphics/icons/agricultural-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -5430,7 +5230,6 @@
     "type": "tool",
     "name": "electromagnetic-science-pack",
     "subgroup": "science-pack",
-    "icon": "__space-age__/graphics/icons/electromagnetic-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": []
@@ -5439,7 +5238,6 @@
     "type": "tool",
     "name": "cryogenic-science-pack",
     "subgroup": "science-pack",
-    "icon": "__space-age__/graphics/icons/cryogenic-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": []
@@ -5448,7 +5246,6 @@
     "type": "tool",
     "name": "promethium-science-pack",
     "subgroup": "science-pack",
-    "icon": "__space-age__/graphics/icons/promethium-science-pack.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -5479,7 +5276,6 @@
     "type": "item",
     "name": "turbo-transport-belt",
     "subgroup": "belt",
-    "icon": "__space-age__/graphics/icons/turbo-transport-belt.png",
     "stackSize": 100,
     "rocketCapacity": 50,
     "alternatives": []
@@ -5488,7 +5284,6 @@
     "type": "item",
     "name": "turbo-underground-belt",
     "subgroup": "belt",
-    "icon": "__space-age__/graphics/icons/turbo-underground-belt.png",
     "stackSize": 50,
     "rocketCapacity": 25,
     "alternatives": []
@@ -5497,7 +5292,6 @@
     "type": "item",
     "name": "turbo-splitter",
     "subgroup": "belt",
-    "icon": "__space-age__/graphics/icons/turbo-splitter.png",
     "stackSize": 50,
     "rocketCapacity": 25,
     "alternatives": []
@@ -5506,7 +5300,6 @@
     "type": "armor",
     "name": "mech-armor",
     "subgroup": "armor",
-    "icon": "__space-age__/graphics/icons/mech-armor.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -5547,7 +5340,6 @@
     "type": "item",
     "name": "toolbelt-equipment",
     "subgroup": "utility-equipment",
-    "icon": "__space-age__/graphics/icons/toolbelt-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -5573,7 +5365,6 @@
     "type": "item",
     "name": "battery-mk3-equipment",
     "subgroup": "equipment",
-    "icon": "__space-age__/graphics/icons/battery-mk3-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 5,
     "alternatives": [
@@ -5599,7 +5390,6 @@
     "type": "item",
     "name": "cargo-bay",
     "subgroup": "space-platform",
-    "icon": "__space-age__/graphics/icons/cargo-bay.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5630,7 +5420,6 @@
     "type": "space-platform-starter-pack",
     "name": "space-platform-starter-pack",
     "subgroup": "space-rocket",
-    "icon": "__space-age__/graphics/icons/space-platform-starter-pack.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -5661,7 +5450,6 @@
     "type": "item",
     "name": "metallic-asteroid-chunk",
     "subgroup": "space-material",
-    "icon": "__space-age__/graphics/icons/metallic-asteroid-chunk.png",
     "stackSize": 1,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5726,7 +5514,6 @@
     "type": "item",
     "name": "carbonic-asteroid-chunk",
     "subgroup": "space-material",
-    "icon": "__space-age__/graphics/icons/carbonic-asteroid-chunk.png",
     "stackSize": 1,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5791,7 +5578,6 @@
     "type": "item",
     "name": "oxide-asteroid-chunk",
     "subgroup": "space-material",
-    "icon": "__space-age__/graphics/icons/oxide-asteroid-chunk.png",
     "stackSize": 1,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5856,7 +5642,6 @@
     "type": "item",
     "name": "promethium-asteroid-chunk",
     "subgroup": "space-material",
-    "icon": "__space-age__/graphics/icons/promethium-asteroid-chunk.png",
     "stackSize": 1,
     "rocketCapacity": 10,
     "alternatives": []
@@ -5865,7 +5650,6 @@
     "type": "item",
     "name": "asteroid-collector",
     "subgroup": "space-platform",
-    "icon": "__space-age__/graphics/icons/asteroid-collector.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5896,7 +5680,6 @@
     "type": "item",
     "name": "crusher",
     "subgroup": "space-platform",
-    "icon": "__space-age__/graphics/icons/crusher.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -5927,7 +5710,6 @@
     "type": "item",
     "name": "thruster",
     "subgroup": "space-platform",
-    "icon": "__space-age__/graphics/icons/thruster.png",
     "stackSize": 10,
     "rocketCapacity": 5,
     "alternatives": [
@@ -5958,7 +5740,6 @@
     "type": "item",
     "name": "ice",
     "subgroup": "raw-resource",
-    "icon": "__space-age__/graphics/icons/ice.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -6001,7 +5782,6 @@
     "type": "item",
     "name": "carbon",
     "subgroup": "raw-material",
-    "icon": "__space-age__/graphics/icons/carbon.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -6044,7 +5824,6 @@
     "type": "item",
     "name": "calcite",
     "subgroup": "vulcanus-processes",
-    "icon": "__space-age__/graphics/icons/calcite.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": [
@@ -6065,7 +5844,6 @@
     "type": "item",
     "name": "tungsten-ore",
     "subgroup": "vulcanus-processes",
-    "icon": "__space-age__/graphics/icons/tungsten-ore.png",
     "stackSize": 50,
     "rocketCapacity": 100,
     "alternatives": []
@@ -6074,7 +5852,6 @@
     "type": "item",
     "name": "tungsten-plate",
     "subgroup": "vulcanus-processes",
-    "icon": "__space-age__/graphics/icons/tungsten-plate.png",
     "stackSize": 50,
     "rocketCapacity": 250,
     "alternatives": []
@@ -6083,7 +5860,6 @@
     "type": "item",
     "name": "big-mining-drill",
     "subgroup": "extraction-machine",
-    "icon": "__space-age__/graphics/icons/big-mining-drill.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": []
@@ -6092,7 +5868,6 @@
     "type": "item",
     "name": "tungsten-carbide",
     "subgroup": "vulcanus-processes",
-    "icon": "__space-age__/graphics/icons/tungsten-carbide.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": []
@@ -6101,7 +5876,6 @@
     "type": "item",
     "name": "foundry",
     "subgroup": "smelting-machine",
-    "icon": "__space-age__/graphics/icons/foundry.png",
     "stackSize": 20,
     "rocketCapacity": 5,
     "alternatives": []
@@ -6110,7 +5884,6 @@
     "type": "gun",
     "name": "railgun",
     "subgroup": "gun",
-    "icon": "__space-age__/graphics/icons/railgun.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": []
@@ -6119,7 +5892,6 @@
     "type": "item",
     "name": "railgun-turret",
     "subgroup": "turret",
-    "icon": "__space-age__/graphics/icons/railgun-turret.png",
     "stackSize": 10,
     "rocketCapacity": 1,
     "alternatives": []
@@ -6128,7 +5900,6 @@
     "type": "ammo",
     "name": "railgun-ammo",
     "subgroup": "ammo",
-    "icon": "__space-age__/graphics/icons/railgun-ammo.png",
     "stackSize": 10,
     "rocketCapacity": 5,
     "alternatives": [
@@ -6159,7 +5930,6 @@
     "type": "capsule",
     "name": "yumako",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/yumako.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": []
@@ -6168,7 +5938,6 @@
     "type": "capsule",
     "name": "jellynut",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/jellynut.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": []
@@ -6177,7 +5946,6 @@
     "type": "item",
     "name": "copper-bacteria",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/copper-bacteria.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -6214,7 +5982,6 @@
     "type": "item",
     "name": "iron-bacteria",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/iron-bacteria.png",
     "stackSize": 50,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -6251,7 +6018,6 @@
     "type": "item",
     "name": "yumako-seed",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/yumako-seed.png",
     "stackSize": 10,
     "rocketCapacity": 100,
     "alternatives": [
@@ -6272,7 +6038,6 @@
     "type": "item",
     "name": "jellynut-seed",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/jellynut-seed.png",
     "stackSize": 10,
     "rocketCapacity": 100,
     "alternatives": [
@@ -6293,7 +6058,6 @@
     "type": "item",
     "name": "nutrients",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/nutrients.png",
     "stackSize": 100,
     "rocketCapacity": 2000,
     "alternatives": [
@@ -6358,7 +6122,6 @@
     "type": "capsule",
     "name": "yumako-mash",
     "subgroup": "agriculture-products",
-    "icon": "__space-age__/graphics/icons/yumako-mash.png",
     "stackSize": 100,
     "rocketCapacity": 2000,
     "alternatives": [
@@ -6379,7 +6142,6 @@
     "type": "capsule",
     "name": "jelly",
     "subgroup": "agriculture-products",
-    "icon": "__space-age__/graphics/icons/jelly.png",
     "stackSize": 100,
     "rocketCapacity": 2000,
     "alternatives": [
@@ -6400,7 +6162,6 @@
     "type": "capsule",
     "name": "bioflux",
     "subgroup": "agriculture-products",
-    "icon": "__space-age__/graphics/icons/bioflux.png",
     "stackSize": 100,
     "rocketCapacity": 1000,
     "alternatives": [
@@ -6426,7 +6187,6 @@
     "type": "item",
     "name": "artificial-yumako-soil",
     "subgroup": "terrain",
-    "icon": "__space-age__/graphics/icons/artificial-yumako-soil.png",
     "stackSize": 100,
     "rocketCapacity": 67.79661016949153,
     "alternatives": [
@@ -6457,7 +6217,6 @@
     "type": "item",
     "name": "overgrowth-yumako-soil",
     "subgroup": "terrain",
-    "icon": "__space-age__/graphics/icons/overgrowth-yumako-soil.png",
     "stackSize": 100,
     "rocketCapacity": 14.869888475836431,
     "alternatives": []
@@ -6466,7 +6225,6 @@
     "type": "item",
     "name": "artificial-jellynut-soil",
     "subgroup": "terrain",
-    "icon": "__space-age__/graphics/icons/artificial-jellynut-soil.png",
     "stackSize": 100,
     "rocketCapacity": 67.79661016949153,
     "alternatives": [
@@ -6497,7 +6255,6 @@
     "type": "item",
     "name": "overgrowth-jellynut-soil",
     "subgroup": "terrain",
-    "icon": "__space-age__/graphics/icons/overgrowth-jellynut-soil.png",
     "stackSize": 100,
     "rocketCapacity": 14.869888475836431,
     "alternatives": []
@@ -6506,7 +6263,6 @@
     "type": "item",
     "name": "agricultural-tower",
     "subgroup": "agriculture",
-    "icon": "__space-age__/graphics/icons/agricultural-tower.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -6542,7 +6298,6 @@
     "type": "item",
     "name": "biochamber",
     "subgroup": "agriculture",
-    "icon": "__space-age__/graphics/icons/biochamber.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": [
@@ -6583,7 +6338,6 @@
     "type": "ammo",
     "name": "capture-robot-rocket",
     "subgroup": "ammo",
-    "icon": "__space-age__/graphics/icons/capture-bot.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -6619,7 +6373,6 @@
     "type": "item",
     "name": "biolab",
     "subgroup": "production-machine",
-    "icon": "__space-age__/graphics/icons/biolab.png",
     "stackSize": 5,
     "rocketCapacity": 1,
     "alternatives": [
@@ -6660,7 +6413,6 @@
     "type": "item",
     "name": "captive-biter-spawner",
     "subgroup": "agriculture",
-    "icon": "__space-age__/graphics/icons/captive-biter-spawner.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": []
@@ -6669,7 +6421,6 @@
     "type": "item",
     "name": "biter-egg",
     "subgroup": "agriculture-products",
-    "icon": "__space-age__/graphics/icons/biter-egg.png",
     "stackSize": 100,
     "rocketCapacity": 500,
     "alternatives": [
@@ -6684,7 +6435,6 @@
     "type": "item",
     "name": "pentapod-egg",
     "subgroup": "agriculture-products",
-    "icon": "__space-age__/graphics/icons/pentapod-egg.png",
     "stackSize": 20,
     "rocketCapacity": 200,
     "alternatives": []
@@ -6693,7 +6443,6 @@
     "type": "item",
     "name": "carbon-fiber",
     "subgroup": "agriculture-products",
-    "icon": "__space-age__/graphics/icons/carbon-fiber.png",
     "stackSize": 100,
     "rocketCapacity": 500,
     "alternatives": [
@@ -6719,7 +6468,6 @@
     "type": "item",
     "name": "stack-inserter",
     "subgroup": "inserter",
-    "icon": "__space-age__/graphics/icons/stack-inserter.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -6755,7 +6503,6 @@
     "type": "item",
     "name": "rocket-turret",
     "subgroup": "turret",
-    "icon": "__space-age__/graphics/icons/rocket-turret.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": [
@@ -6796,7 +6543,6 @@
     "type": "item",
     "name": "holmium-ore",
     "subgroup": "fulgora-processes",
-    "icon": "__space-age__/graphics/icons/holmium-ore.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": [
@@ -6817,7 +6563,6 @@
     "type": "item",
     "name": "holmium-plate",
     "subgroup": "fulgora-processes",
-    "icon": "__space-age__/graphics/icons/holmium-plate.png",
     "stackSize": 100,
     "rocketCapacity": 1000,
     "alternatives": []
@@ -6826,7 +6571,6 @@
     "type": "item",
     "name": "lithium",
     "subgroup": "aquilo-processes",
-    "icon": "__space-age__/graphics/icons/lithium.png",
     "stackSize": 50,
     "rocketCapacity": 250,
     "alternatives": []
@@ -6835,7 +6579,6 @@
     "type": "item",
     "name": "lithium-plate",
     "subgroup": "aquilo-processes",
-    "icon": "__space-age__/graphics/icons/lithium-plate.png",
     "stackSize": 100,
     "rocketCapacity": 500,
     "alternatives": [
@@ -6856,7 +6599,6 @@
     "type": "item",
     "name": "scrap",
     "subgroup": "fulgora-processes",
-    "icon": "__space-age__/graphics/icons/scrap.png",
     "stackSize": 50,
     "rocketCapacity": 500,
     "alternatives": []
@@ -6865,7 +6607,6 @@
     "type": "item",
     "name": "lightning-rod",
     "subgroup": "environmental-protection",
-    "icon": "__space-age__/graphics/icons/lightning-rod.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -6896,7 +6637,6 @@
     "type": "item",
     "name": "lightning-collector",
     "subgroup": "environmental-protection",
-    "icon": "__space-age__/graphics/icons/lightning-collector.png",
     "stackSize": 20,
     "rocketCapacity": 20,
     "alternatives": []
@@ -6905,7 +6645,6 @@
     "type": "item",
     "name": "heating-tower",
     "subgroup": "environmental-protection",
-    "icon": "__space-age__/graphics/icons/heating-tower.png",
     "stackSize": 20,
     "rocketCapacity": 10,
     "alternatives": [
@@ -6936,7 +6675,6 @@
     "type": "item",
     "name": "electromagnetic-plant",
     "subgroup": "production-machine",
-    "icon": "__space-age__/graphics/icons/electromagnetic-plant.png",
     "stackSize": 20,
     "rocketCapacity": 5,
     "alternatives": [
@@ -6972,7 +6710,6 @@
     "type": "item",
     "name": "superconductor",
     "subgroup": "fulgora-processes",
-    "icon": "__space-age__/graphics/icons/superconductor.png",
     "stackSize": 200,
     "rocketCapacity": 1000,
     "alternatives": []
@@ -6981,7 +6718,6 @@
     "type": "item",
     "name": "supercapacitor",
     "subgroup": "fulgora-processes",
-    "icon": "__space-age__/graphics/icons/supercapacitor.png",
     "stackSize": 100,
     "rocketCapacity": 500,
     "alternatives": []
@@ -6990,7 +6726,6 @@
     "type": "gun",
     "name": "teslagun",
     "subgroup": "gun",
-    "icon": "__space-age__/graphics/icons/teslagun.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": []
@@ -6999,7 +6734,6 @@
     "type": "item",
     "name": "tesla-turret",
     "subgroup": "turret",
-    "icon": "__space-age__/graphics/icons/tesla-turret.png",
     "stackSize": 10,
     "rocketCapacity": 10,
     "alternatives": []
@@ -7008,7 +6742,6 @@
     "type": "ammo",
     "name": "tesla-ammo",
     "subgroup": "ammo",
-    "icon": "__space-age__/graphics/icons/tesla-ammo.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": []
@@ -7017,7 +6750,6 @@
     "type": "item",
     "name": "quantum-processor",
     "subgroup": "aquilo-processes",
-    "icon": "__space-age__/graphics/icons/quantum-processor.png",
     "stackSize": 100,
     "rocketCapacity": 200,
     "alternatives": []
@@ -7026,7 +6758,6 @@
     "type": "item",
     "name": "fusion-reactor-equipment",
     "subgroup": "equipment",
-    "icon": "__space-age__/graphics/icons/fusion-reactor-equipment.png",
     "stackSize": 20,
     "rocketCapacity": 1,
     "alternatives": [
@@ -7072,7 +6803,6 @@
     "type": "item",
     "name": "fusion-power-cell",
     "subgroup": "aquilo-processes",
-    "icon": "__space-age__/graphics/icons/fusion-power-cell.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": []
@@ -7081,7 +6811,6 @@
     "type": "item",
     "name": "fusion-reactor",
     "subgroup": "energy",
-    "icon": "__space-age__/graphics/icons/fusion-reactor.png",
     "stackSize": 1,
     "rocketCapacity": 1,
     "alternatives": [
@@ -7112,7 +6841,6 @@
     "type": "item",
     "name": "fusion-generator",
     "subgroup": "energy",
-    "icon": "__space-age__/graphics/icons/fusion-generator.png",
     "stackSize": 5,
     "rocketCapacity": 5,
     "alternatives": [
@@ -7143,7 +6871,6 @@
     "type": "item",
     "name": "cryogenic-plant",
     "subgroup": "production-machine",
-    "icon": "__space-age__/graphics/icons/cryogenic-plant.png",
     "stackSize": 20,
     "rocketCapacity": 5,
     "alternatives": [
@@ -7179,7 +6906,6 @@
     "type": "item",
     "name": "spoilage",
     "subgroup": "agriculture-processes",
-    "icon": "__space-age__/graphics/icons/spoilage.png",
     "stackSize": 200,
     "rocketCapacity": 2000,
     "alternatives": [
@@ -7211,7 +6937,6 @@
     "type": "item",
     "name": "ice-platform",
     "subgroup": "terrain",
-    "icon": "__space-age__/graphics/icons/ice-platform.png",
     "stackSize": 100,
     "rocketCapacity": 100,
     "alternatives": []
@@ -7220,7 +6945,6 @@
     "type": "item",
     "name": "foundation",
     "subgroup": "terrain",
-    "icon": "__space-age__/graphics/icons/foundation.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": []
@@ -7229,7 +6953,6 @@
     "type": "item",
     "name": "tree-seed",
     "subgroup": "nauvis-agriculture",
-    "icon": "__space-age__/graphics/icons/tree-seed.png",
     "stackSize": 10,
     "rocketCapacity": 100,
     "alternatives": [
@@ -7250,7 +6973,6 @@
     "type": "module",
     "name": "quality-module",
     "subgroup": "module",
-    "icon": "__quality__/graphics/icons/quality-module.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -7276,7 +6998,6 @@
     "type": "module",
     "name": "quality-module-2",
     "subgroup": "module",
-    "icon": "__quality__/graphics/icons/quality-module-2.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -7307,7 +7028,6 @@
     "type": "module",
     "name": "quality-module-3",
     "subgroup": "module",
-    "icon": "__quality__/graphics/icons/quality-module-3.png",
     "stackSize": 50,
     "rocketCapacity": 50,
     "alternatives": [
@@ -7343,7 +7063,6 @@
     "type": "item",
     "name": "recycler",
     "subgroup": "smelting-machine",
-    "icon": "__quality__/graphics/icons/recycler.png",
     "stackSize": 20,
     "rocketCapacity": 10,
     "alternatives": [
@@ -7379,7 +7098,6 @@
     "type": "rail-planner",
     "name": "rail-ramp",
     "subgroup": "train-transport",
-    "icon": "__elevated-rails__/graphics/icons/rail-ramp.png",
     "stackSize": 10,
     "rocketCapacity": 1.8099547511312217,
     "alternatives": [
@@ -7410,7 +7128,6 @@
     "type": "item",
     "name": "rail-support",
     "subgroup": "train-transport",
-    "icon": "__elevated-rails__/graphics/icons/rail-support.png",
     "stackSize": 20,
     "rocketCapacity": 5,
     "alternatives": [

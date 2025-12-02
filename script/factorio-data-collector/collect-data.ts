@@ -6,7 +6,7 @@ import {
 } from './game-data/collector.ts';
 import { applyItemWeights, getEnrichedItems } from './enrich/enrich.ts';
 
-export async function collectData() {
+export async function collectData(config?: {withIconPaths: boolean}) {
   let items = await getItems();
   let recipes = await getRecipes();
 
@@ -20,6 +20,6 @@ export async function collectData() {
   applyItemWeights(items, recipes);
 
   // Re-model data into Rocket-Capacitator data structures
-  let enrichedItems = getEnrichedItems(items, recipes);
+  let enrichedItems = getEnrichedItems(items, recipes, config?.withIconPaths);
   return enrichedItems;
 }

@@ -94,6 +94,12 @@ let correctIngredients = [
     {name: 'explosives', amount: 10},
     {name: 'uranium-235', amount: 100}, // 30 in base vanilla
   ]],
+  ['productivity-module-3', [
+    {name: 'productivity-module-2', amount: 4},
+    {name: 'advanced-circuit', amount: 5},
+    {name: 'processing-unit', amount: 5},
+    {name: 'biter-egg', amount: 1}
+  ]],
 ];
 
 function ingredientsToString(ingredients: {
