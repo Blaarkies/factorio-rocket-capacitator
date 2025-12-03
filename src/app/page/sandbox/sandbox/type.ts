@@ -12,6 +12,7 @@ type CalculatedIngredient = EnrichedIngredient & {
 export type EnrichedAlternative = Alternative & {
   craftCount: number
   ingredients: CalculatedIngredient[]
+  craftedOnlyOn?: string
 }
 
 export type EnrichedItemWithEnrichedAlternatives = EnrichedItem & {

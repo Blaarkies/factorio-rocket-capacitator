@@ -1,4 +1,9 @@
-import type { Alternative, EnrichedItem, EnrichedIngredient } from './type.ts';
+import type {
+  Alternative,
+  EnrichedItem,
+  EnrichedIngredient,
+  SurfaceName
+} from './type.ts';
 import type { FactorioItem, FactorioRecipe } from '../game-data/type.ts';
 import { sum } from '../common/math.ts';
 
@@ -11,21 +16,19 @@ export function applyItemWeights(
 
   let {itemRecipeMap, itemNameMap} = getItemRecipeMaps(items, recipes);
 
-  let itemsToProcess = items
-    .filter(i => !i.weight)
-    .slice();
+  let remaining = items.filter(i => !i.weight);
   let i = 0;
-  while (itemsToProcess.length) {
-    if (i > itemsToProcess.length - 2) {
+  while (remaining.length) {
+    if (i > remaining.length - 2) {
       i = 0;
     }
 
-    let item = itemsToProcess[i++];
+    let item = remaining[i++];
     let weight = calculateWeight(item, itemRecipeMap, itemNameMap);
 
     if (weight !== undefined) {
       item.weight = weight;
-      itemsToProcess.splice(i - 1, 1);
+      remaining.splice(i - 1, 1);
     }
   }
 
@@ -131,6 +134,7 @@ function getItemRecipeMaps(items: FactorioItem[], recipes: FactorioRecipe[])
   return {itemRecipeMap, itemNameMap};
 }
 
+/** Convert the raw game data models into cleaner minimalistic models for FE */
 export function getEnrichedItems(
   items: FactorioItem[],
   recipes: FactorioRecipe[],
@@ -197,8 +201,34 @@ function getAlternatives(recipes: FactorioRecipe[],
         name: recipe.name,
         yield: itemYield,
         ingredients,
+        craftedOnlyOn: getCraftSurfaceCondition(recipe),
       };
     });
   return alternatives;
 }
 
+function getCraftSurfaceCondition(recipe: FactorioRecipe)
+  : SurfaceName | undefined {
+  let condition = recipe.surface_conditions?.[0];
+  if (!condition) {
+    return undefined;
+  }
+
+  if (condition.property === 'magnetic-field') {
+    return 'fulgora';
+  }
+
+  if (condition.property === 'gravity') {
+    return 'space';
+  }
+
+  if (condition.property === 'pressure') {
+    return condition.max === 4000
+      ? 'vulcanus'
+      : condition.max === 2000
+        ? 'gleba'
+        : condition.min === 1000
+          ? 'nauvis'
+          : 'aquilo';
+  }
+}

@@ -33,16 +33,19 @@
 
   @for (alternative of item.enrichedAlternatives; track alternative.name) {
     <div class="payload-container">
-    <div class="hint">1 full rocket payload</div>
-    <app-item-alternative
-      [mainItem]="item"
-      [alternative]="alternative"
-    />
+      @if (alternative.craftedOnlyOn) {
+        <div class="hint warn">{{ alternative.craftedOnlyOn }} only</div>
+      }
+      <div class="hint">{{ alternative.name }}</div>
+      <app-item-alternative
+        [mainItem]="item"
+        [alternative]="alternative"
+      />
     </div>
   }
 
-<!--  <pre style="font-size: var(&#45;&#45;font-size-1)">-->
-<!--{{ item | json }}-->
-<!--  </pre>-->
+  <!--  <pre style="font-size: var(&#45;&#45;font-size-1)">-->
+    <!--{{ item | json }}-->
+    <!--  </pre>-->
 }
 

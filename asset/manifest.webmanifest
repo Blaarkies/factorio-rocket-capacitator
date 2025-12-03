@@ -1,6 +1,6 @@
 {
-  "name": "factorio-rocket-capacitator",
-  "short_name": "capacitator",
+  "name": "Factorio Rocket Capacitator",
+  "short_name": "Capacitator",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

@@ -18,6 +18,10 @@ export type ValidProp =
   | 'temperature'
   | 'amount'
   | 'probability'
+  | 'surface_conditions'
+  | 'property'
+  | 'min'
+  | 'max'
 
   | 'base_color'
   | 'flow_color'

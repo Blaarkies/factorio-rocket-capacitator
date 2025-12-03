@@ -1,5 +1,8 @@
 import {
-  applyDataUpdates, applyRecipeFluidToBarrelSubstitutions, getBarrels,
+  applyDataUpdates,
+  applyRecipeFluidToBarrelSubstitutions,
+  applyRecipeFluidToItemsSubstitutions,
+  getBarrels,
   getDataUpdates,
   getItems,
   getRecipes
@@ -25,6 +28,8 @@ export async function collectData(config?: { withIconPaths: boolean }) {
   recipes = recipes.concat(barrelRecipes);
   items = items.concat(barrels);
   applyRecipeFluidToBarrelSubstitutions(recipes, barrels);
+
+  applyRecipeFluidToItemsSubstitutions(recipes, items);
 
   // Re-model data into Rocket-Capacitator data structures
   let enrichedItems = getEnrichedItems(items, recipes, config?.withIconPaths);

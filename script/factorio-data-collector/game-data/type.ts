@@ -14,12 +14,24 @@ type OptionalFactorioItem = {
   ingredient_to_weight_coefficient: number
 }
 
+type SurfaceConditionMeasure =
+  | 'gravity'
+  | 'pressure'
+  | 'magnetic-field'
+
+type SurfaceCondition = {
+  property: SurfaceConditionMeasure
+  min: number
+  max: number
+}
+
 export type FactorioRecipe = Partial<OptionalFactorioRecipe> & {
   type: string
   name: string
   energy_required: number
   ingredients: Ingredient[]
   results: (Ingredient & Result)[]
+  surface_conditions?: SurfaceCondition[]
 }
 
 type OptionalFactorioRecipe = {

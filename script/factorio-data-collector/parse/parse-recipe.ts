@@ -16,6 +16,10 @@ const requiredProperties: ValidProp[] = [
   'amount',
   'allow_productivity',
   'temperature',
+  'surface_conditions',
+  'property',
+  'min',
+  'max',
 ];
 
 // Properties that need to be evaluated to number

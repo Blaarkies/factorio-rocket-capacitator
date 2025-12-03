@@ -145,6 +145,22 @@
             "weightRatio": 1
           }
         ]
+      },
+      {
+        "name": "casting-iron",
+        "yield": 2,
+        "ingredients": [
+          {
+            "name": "iron-ore",
+            "amount": 2,
+            "weightRatio": 0.9803921568627451
+          },
+          {
+            "name": "calcite",
+            "amount": 0.04,
+            "weightRatio": 0.0196078431372549
+          }
+        ]
       }
     ]
   },
@@ -165,6 +181,22 @@
             "weightRatio": 1
           }
         ]
+      },
+      {
+        "name": "casting-copper",
+        "yield": 2,
+        "ingredients": [
+          {
+            "name": "copper-ore",
+            "amount": 2,
+            "weightRatio": 0.9803921568627451
+          },
+          {
+            "name": "calcite",
+            "amount": 0.04,
+            "weightRatio": 0.0196078431372549
+          }
+        ]
       }
     ]
   },
@@ -183,6 +215,22 @@
             "name": "copper-plate",
             "amount": 1,
             "weightRatio": 1
+          }
+        ]
+      },
+      {
+        "name": "casting-copper-cable",
+        "yield": 2,
+        "ingredients": [
+          {
+            "name": "copper-ore",
+            "amount": 0.5,
+            "weightRatio": 0.9803921568627451
+          },
+          {
+            "name": "calcite",
+            "amount": 0.01,
+            "weightRatio": 0.0196078431372549
           }
         ]
       },
@@ -216,6 +264,22 @@
             "weightRatio": 1
           }
         ]
+      },
+      {
+        "name": "casting-iron-stick",
+        "yield": 4,
+        "ingredients": [
+          {
+            "name": "iron-ore",
+            "amount": 2,
+            "weightRatio": 0.9803921568627451
+          },
+          {
+            "name": "calcite",
+            "amount": 0.04,
+            "weightRatio": 0.0196078431372549
+          }
+        ]
       }
     ]
   },
@@ -234,6 +298,22 @@
             "name": "iron-plate",
             "amount": 2,
             "weightRatio": 1
+          }
+        ]
+      },
+      {
+        "name": "casting-iron-gear-wheel",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "iron-ore",
+            "amount": 1,
+            "weightRatio": 0.9803921568627451
+          },
+          {
+            "name": "calcite",
+            "amount": 0.02,
+            "weightRatio": 0.0196078431372549
           }
         ]
       },
@@ -532,6 +612,22 @@
             "weightRatio": 1
           }
         ]
+      },
+      {
+        "name": "casting-pipe",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "iron-ore",
+            "amount": 1,
+            "weightRatio": 0.9803921568627451
+          },
+          {
+            "name": "calcite",
+            "amount": 0.02,
+            "weightRatio": 0.0196078431372549
+          }
+        ]
       }
     ]
   },
@@ -697,6 +793,27 @@
             "weightRatio": 0.09090909090909091
           }
         ]
+      },
+      {
+        "name": "casting-pipe-to-ground",
+        "yield": 2,
+        "ingredients": [
+          {
+            "name": "pipe",
+            "amount": 10,
+            "weightRatio": 0.8305647840531561
+          },
+          {
+            "name": "iron-ore",
+            "amount": 5,
+            "weightRatio": 0.16611295681063123
+          },
+          {
+            "name": "calcite",
+            "amount": 0.1,
+            "weightRatio": 0.0033222591362126247
+          }
+        ]
       }
     ]
   },
@@ -791,7 +908,8 @@
             "amount": 2,
             "weightRatio": 0.26086956521739135
           }
-        ]
+        ],
+        "craftedOnlyOn": "nauvis"
       }
     ]
   },
@@ -935,6 +1053,22 @@
             "name": "iron-plate",
             "amount": 5,
             "weightRatio": 1
+          }
+        ]
+      },
+      {
+        "name": "casting-steel",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "iron-ore",
+            "amount": 3,
+            "weightRatio": 0.9803921568627451
+          },
+          {
+            "name": "calcite",
+            "amount": 0.06,
+            "weightRatio": 0.0196078431372549
           }
         ]
       },
@@ -1554,6 +1688,32 @@
         ]
       },
       {
+        "name": "concrete-from-molten-iron",
+        "yield": 10,
+        "ingredients": [
+          {
+            "name": "water-barrel",
+            "amount": 2,
+            "weightRatio": 0.5868544600938967
+          },
+          {
+            "name": "stone-brick",
+            "amount": 5,
+            "weightRatio": 0.2934272300469484
+          },
+          {
+            "name": "iron-ore",
+            "amount": 2,
+            "weightRatio": 0.11737089201877934
+          },
+          {
+            "name": "calcite",
+            "amount": 0.04,
+            "weightRatio": 0.002347417840375587
+          }
+        ]
+      },
+      {
         "name": "scrap-recycling",
         "yield": 0.06,
         "ingredients": [
@@ -2120,7 +2280,8 @@
             "amount": 1,
             "weightRatio": 0.25
           }
-        ]
+        ],
+        "craftedOnlyOn": "space"
       }
     ]
   },
@@ -3284,6 +3445,32 @@
             "name": "plastic-bar",
             "amount": 5,
             "weightRatio": 0.09090909090909091
+          }
+        ]
+      },
+      {
+        "name": "casting-low-density-structure",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "plastic-bar",
+            "amount": 5,
+            "weightRatio": 0.03580635920939559
+          },
+          {
+            "name": "iron-ore",
+            "amount": 8,
+            "weightRatio": 0.22916069894013177
+          },
+          {
+            "name": "calcite",
+            "amount": 0.66,
+            "weightRatio": 0.01890575766256087
+          },
+          {
+            "name": "copper-ore",
+            "amount": 25,
+            "weightRatio": 0.7161271841879118
           }
         ]
       },
@@ -5587,7 +5774,35 @@
     "subgroup": "science-pack",
     "stackSize": 200,
     "rocketCapacity": 1000,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "metallurgic-science-pack",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "tungsten-carbide",
+            "amount": 3,
+            "weightRatio": 0.10948905109489052
+          },
+          {
+            "name": "tungsten-plate",
+            "amount": 2,
+            "weightRatio": 0.145985401459854
+          },
+          {
+            "name": "copper-ore",
+            "amount": 20,
+            "weightRatio": 0.7299270072992701
+          },
+          {
+            "name": "calcite",
+            "amount": 0.4,
+            "weightRatio": 0.014598540145985401
+          }
+        ],
+        "craftedOnlyOn": "vulcanus"
+      }
+    ]
   },
   {
     "type": "tool",
@@ -5610,7 +5825,8 @@
             "amount": 1,
             "weightRatio": 0.8333333333333334
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -5620,7 +5836,45 @@
     "subgroup": "science-pack",
     "stackSize": 200,
     "rocketCapacity": 1000,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "electromagnetic-science-pack",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "supercapacitor",
+            "amount": 1,
+            "weightRatio": 0.05555555555555555
+          },
+          {
+            "name": "accumulator",
+            "amount": 1,
+            "weightRatio": 0.5555555555555556
+          },
+          {
+            "name": "stone",
+            "amount": 3,
+            "weightRatio": 0.16666666666666666
+          },
+          {
+            "name": "heavy-oil-barrel",
+            "amount": 0.5,
+            "weightRatio": 0.1388888888888889
+          },
+          {
+            "name": "holmium-ore",
+            "amount": 1,
+            "weightRatio": 0.05555555555555555
+          },
+          {
+            "name": "water-barrel",
+            "amount": 0.1,
+            "weightRatio": 0.027777777777777776
+          }
+        ],
+        "craftedOnlyOn": "fulgora"
+      }
+    ]
   },
   {
     "type": "tool",
@@ -5648,7 +5902,8 @@
             "amount": 0.12,
             "weightRatio": 0.1935483870967742
           }
-        ]
+        ],
+        "craftedOnlyOn": "aquilo"
       }
     ]
   },
@@ -5678,7 +5933,8 @@
             "amount": 10,
             "weightRatio": 0.007920792079207921
           }
-        ]
+        ],
+        "craftedOnlyOn": "space"
       }
     ]
   },
@@ -5708,7 +5964,8 @@
             "amount": 0.4,
             "weightRatio": 0.11764705882352941
           }
-        ]
+        ],
+        "craftedOnlyOn": "vulcanus"
       }
     ]
   },
@@ -5738,7 +5995,8 @@
             "amount": 0.8,
             "weightRatio": 0.038461538461538464
           }
-        ]
+        ],
+        "craftedOnlyOn": "vulcanus"
       }
     ]
   },
@@ -5773,7 +6031,8 @@
             "amount": 1.6,
             "weightRatio": 0.15584415584415584
           }
-        ]
+        ],
+        "craftedOnlyOn": "vulcanus"
       }
     ]
   },
@@ -6351,7 +6610,29 @@
     "subgroup": "vulcanus-processes",
     "stackSize": 50,
     "rocketCapacity": 250,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "tungsten-plate",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "tungsten-ore",
+            "amount": 4,
+            "weightRatio": 0.9514747859181731
+          },
+          {
+            "name": "iron-ore",
+            "amount": 1,
+            "weightRatio": 0.047573739295908656
+          },
+          {
+            "name": "calcite",
+            "amount": 0.02,
+            "weightRatio": 0.0009514747859181732
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "item",
@@ -6359,7 +6640,45 @@
     "subgroup": "extraction-machine",
     "stackSize": 20,
     "rocketCapacity": 20,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "big-mining-drill",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "electric-mining-drill",
+            "amount": 1,
+            "weightRatio": 0.14727540500736377
+          },
+          {
+            "name": "tungsten-carbide",
+            "amount": 20,
+            "weightRatio": 0.29455081001472755
+          },
+          {
+            "name": "electric-engine-unit",
+            "amount": 10,
+            "weightRatio": 0.18409425625920472
+          },
+          {
+            "name": "advanced-circuit",
+            "amount": 10,
+            "weightRatio": 0.07363770250368189
+          },
+          {
+            "name": "iron-ore",
+            "amount": 20,
+            "weightRatio": 0.29455081001472755
+          },
+          {
+            "name": "calcite",
+            "amount": 0.4,
+            "weightRatio": 0.005891016200294551
+          }
+        ],
+        "craftedOnlyOn": "vulcanus"
+      }
+    ]
   },
   {
     "type": "item",
@@ -6427,7 +6746,8 @@
             "amount": 0.4,
             "weightRatio": 0.009009009009009009
           }
-        ]
+        ],
+        "craftedOnlyOn": "vulcanus"
       }
     ]
   },
@@ -6568,7 +6888,8 @@
             "amount": 3,
             "weightRatio": 1
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       },
       {
         "name": "copper-bacteria-cultivation",
@@ -6584,7 +6905,8 @@
             "amount": 1,
             "weightRatio": 0.5
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -6604,7 +6926,8 @@
             "amount": 6,
             "weightRatio": 1
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       },
       {
         "name": "iron-bacteria-cultivation",
@@ -6620,7 +6943,8 @@
             "amount": 1,
             "weightRatio": 0.5
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -6819,7 +7143,8 @@
             "amount": 5,
             "weightRatio": 0.847457627118644
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -6859,7 +7184,8 @@
             "amount": 2,
             "weightRatio": 0.1384083044982699
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -6889,7 +7215,8 @@
             "amount": 5,
             "weightRatio": 0.847457627118644
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -6929,7 +7256,8 @@
             "amount": 2,
             "weightRatio": 0.1384083044982699
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -7004,7 +7332,8 @@
             "amount": 1,
             "weightRatio": 0.625
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -7158,7 +7487,8 @@
             "amount": 1.2,
             "weightRatio": 0.375
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -7288,7 +7618,29 @@
     "subgroup": "fulgora-processes",
     "stackSize": 100,
     "rocketCapacity": 1000,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "holmium-plate",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "holmium-ore",
+            "amount": 0.4,
+            "weightRatio": 0.5
+          },
+          {
+            "name": "stone",
+            "amount": 0.2,
+            "weightRatio": 0.25
+          },
+          {
+            "name": "water-barrel",
+            "amount": 0.04000000000000001,
+            "weightRatio": 0.25000000000000006
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "item",
@@ -7352,7 +7704,8 @@
             "amount": 4,
             "weightRatio": 0.25806451612903225
           }
-        ]
+        ],
+        "craftedOnlyOn": "fulgora"
       }
     ]
   },
@@ -7362,7 +7715,50 @@
     "subgroup": "environmental-protection",
     "stackSize": 20,
     "rocketCapacity": 20,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "lightning-collector",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "lightning-rod",
+            "amount": 1,
+            "weightRatio": 0.211864406779661
+          },
+          {
+            "name": "supercapacitor",
+            "amount": 8,
+            "weightRatio": 0.1694915254237288
+          },
+          {
+            "name": "accumulator",
+            "amount": 1,
+            "weightRatio": 0.211864406779661
+          },
+          {
+            "name": "stone",
+            "amount": 8.8,
+            "weightRatio": 0.1864406779661017
+          },
+          {
+            "name": "heavy-oil-barrel",
+            "amount": 1.6,
+            "weightRatio": 0.1694915254237288
+          },
+          {
+            "name": "holmium-ore",
+            "amount": 1.6,
+            "weightRatio": 0.03389830508474576
+          },
+          {
+            "name": "water-barrel",
+            "amount": 0.16000000000000003,
+            "weightRatio": 0.016949152542372885
+          }
+        ],
+        "craftedOnlyOn": "fulgora"
+      }
+    ]
   },
   {
     "type": "item",
@@ -7425,7 +7821,8 @@
             "amount": 50,
             "weightRatio": 0.5309734513274337
           }
-        ]
+        ],
+        "craftedOnlyOn": "fulgora"
       }
     ]
   },
@@ -7470,7 +7867,54 @@
     "subgroup": "fulgora-processes",
     "stackSize": 100,
     "rocketCapacity": 500,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "supercapacitor",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "holmium-plate",
+            "amount": 2,
+            "weightRatio": 0.15037593984962405
+          },
+          {
+            "name": "superconductor",
+            "amount": 2,
+            "weightRatio": 0.15037593984962405
+          },
+          {
+            "name": "electronic-circuit",
+            "amount": 4,
+            "weightRatio": 0.15037593984962405
+          },
+          {
+            "name": "battery",
+            "amount": 1,
+            "weightRatio": 0.18796992481203006
+          },
+          {
+            "name": "stone",
+            "amount": 1.1,
+            "weightRatio": 0.16541353383458646
+          },
+          {
+            "name": "heavy-oil-barrel",
+            "amount": 0.2,
+            "weightRatio": 0.15037593984962405
+          },
+          {
+            "name": "holmium-ore",
+            "amount": 0.2,
+            "weightRatio": 0.03007518796992481
+          },
+          {
+            "name": "water-barrel",
+            "amount": 0.020000000000000004,
+            "weightRatio": 0.015037593984962409
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "gun",
@@ -7478,7 +7922,49 @@
     "subgroup": "gun",
     "stackSize": 5,
     "rocketCapacity": 5,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "teslagun",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "holmium-plate",
+            "amount": 10,
+            "weightRatio": 0.12048192771084337
+          },
+          {
+            "name": "superconductor",
+            "amount": 10,
+            "weightRatio": 0.12048192771084337
+          },
+          {
+            "name": "plastic-bar",
+            "amount": 30,
+            "weightRatio": 0.18072289156626506
+          },
+          {
+            "name": "stone",
+            "amount": 11,
+            "weightRatio": 0.26506024096385544
+          },
+          {
+            "name": "heavy-oil-barrel",
+            "amount": 2,
+            "weightRatio": 0.24096385542168675
+          },
+          {
+            "name": "holmium-ore",
+            "amount": 2,
+            "weightRatio": 0.04819277108433735
+          },
+          {
+            "name": "water-barrel",
+            "amount": 0.20000000000000004,
+            "weightRatio": 0.02409638554216868
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "item",
@@ -7486,7 +7972,54 @@
     "subgroup": "turret",
     "stackSize": 10,
     "rocketCapacity": 10,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "tesla-turret",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "teslagun",
+            "amount": 1,
+            "weightRatio": 0.3680981595092025
+          },
+          {
+            "name": "supercapacitor",
+            "amount": 10,
+            "weightRatio": 0.03680981595092025
+          },
+          {
+            "name": "processing-unit",
+            "amount": 10,
+            "weightRatio": 0.06134969325153374
+          },
+          {
+            "name": "superconductor",
+            "amount": 50,
+            "weightRatio": 0.09202453987730062
+          },
+          {
+            "name": "stone",
+            "amount": 55.00000000000001,
+            "weightRatio": 0.2024539877300614
+          },
+          {
+            "name": "heavy-oil-barrel",
+            "amount": 10,
+            "weightRatio": 0.18404907975460125
+          },
+          {
+            "name": "holmium-ore",
+            "amount": 10,
+            "weightRatio": 0.03680981595092025
+          },
+          {
+            "name": "water-barrel",
+            "amount": 1.0000000000000002,
+            "weightRatio": 0.018404907975460127
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "ammo",
@@ -7494,7 +8027,44 @@
     "subgroup": "ammo",
     "stackSize": 100,
     "rocketCapacity": 100,
-    "alternatives": []
+    "alternatives": [
+      {
+        "name": "tesla-ammo",
+        "yield": 1,
+        "ingredients": [
+          {
+            "name": "supercapacitor",
+            "amount": 1,
+            "weightRatio": 0.273972602739726
+          },
+          {
+            "name": "plastic-bar",
+            "amount": 1,
+            "weightRatio": 0.0684931506849315
+          },
+          {
+            "name": "stone",
+            "amount": 1.1,
+            "weightRatio": 0.3013698630136986
+          },
+          {
+            "name": "heavy-oil-barrel",
+            "amount": 0.2,
+            "weightRatio": 0.273972602739726
+          },
+          {
+            "name": "holmium-ore",
+            "amount": 0.2,
+            "weightRatio": 0.0547945205479452
+          },
+          {
+            "name": "water-barrel",
+            "amount": 0.020000000000000004,
+            "weightRatio": 0.027397260273972608
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "item",
@@ -7537,7 +8107,8 @@
             "amount": 0.2,
             "weightRatio": 0.13953488372093023
           }
-        ]
+        ],
+        "craftedOnlyOn": "aquilo"
       }
     ]
   },
@@ -7620,7 +8191,8 @@
             "amount": 250,
             "weightRatio": 0.5555555555555556
           }
-        ]
+        ],
+        "craftedOnlyOn": "aquilo"
       }
     ]
   },
@@ -7650,7 +8222,8 @@
             "amount": 50,
             "weightRatio": 0.3333333333333333
           }
-        ]
+        ],
+        "craftedOnlyOn": "aquilo"
       }
     ]
   },
@@ -7685,7 +8258,8 @@
             "amount": 20,
             "weightRatio": 0.0759493670886076
           }
-        ]
+        ],
+        "craftedOnlyOn": "aquilo"
       }
     ]
   },
@@ -7705,7 +8279,8 @@
             "amount": 3,
             "weightRatio": 1
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       },
       {
         "name": "iron-bacteria",
@@ -7716,7 +8291,8 @@
             "amount": 6,
             "weightRatio": 1
           }
-        ]
+        ],
+        "craftedOnlyOn": "gleba"
       }
     ]
   },
@@ -7784,7 +8360,8 @@
             "amount": 2,
             "weightRatio": 1
           }
-        ]
+        ],
+        "craftedOnlyOn": "nauvis"
       }
     ]
   },

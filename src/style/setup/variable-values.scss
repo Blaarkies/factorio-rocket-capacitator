@@ -48,7 +48,7 @@
 
   --color-primary: rgb(16 88 177);
   --color-accent: rgb(16 163 176);
-  --color-danger: rgb(255 64 64);
+  --color-danger: oklch(.2 1 0);
   --color-success: rgb(64 255 89);
 
   --color-text-primary: var(--color-primary);

@@ -46,6 +46,8 @@ export async function getItems() {
   return items;
 }
 
+/** Fluid barrels do not exist in the data. They are procedurally created by
+ * following each fluid type and its properties */
 export async function getBarrels(): Promise<{
   barrels: FactorioItem[],
   barrelRecipes: FactorioRecipe[];
@@ -83,6 +85,8 @@ export async function getDataUpdates() {
   return parseDataUpdatesFromContent(content);
 }
 
+/** Factorio mods run updates on base data to apply new settings and changes,
+ * notable: Adding the biter-egg ingredient to productivity-module-3 */
 export function applyDataUpdates(
   items: FactorioItem[],
   recipes: FactorioRecipe[],
@@ -94,10 +98,15 @@ export function applyDataUpdates(
     let {recipeName, propertyName, value, indexed, inserted} = update;
 
     let oldRecipe = recipeNameMap.get(recipeName);
+
+    // refers to index element overrides, such as the 3rd ingredient in
+    // `data.raw.recipe["atomic-bomb"].ingredients[3] = ...`
     if (indexed >= 0) {
       oldRecipe[propertyName][indexed] = value;
       continue;
     }
+
+    // refers to `table.insert(data.raw...)`
     if (inserted) {
       oldRecipe[propertyName].push(value);
       continue;
@@ -107,6 +116,8 @@ export function applyDataUpdates(
   }
 }
 
+/** Replace every fluid ingredient (that can be barreled) with the equivalent
+ * fluid-barrel item with correct amount */
 export function applyRecipeFluidToBarrelSubstitutions(
   recipes: FactorioRecipe[], barrels: FactorioItem[]) {
   let fluidBarrelMap = new Map<string, FactorioItem>(
@@ -125,3 +136,75 @@ export function applyRecipeFluidToBarrelSubstitutions(
     }
   }
 }
+
+/** Replace every fluid ingredient with the ingredients used to make that
+ * ingredient, until all recipe ingredients are non-fluid
+ * @example
+ * holmium-plate requires holmium-solution (cannot be barreled), which
+ * requires holmium-ore
+ * ∴ 1 plate = .4 ore + .2 stone + .02 water-barrel */
+export function applyRecipeFluidToItemsSubstitutions(
+  recipes: FactorioRecipe[], items: FactorioItem[]) {
+
+  let affected = recipes
+    .filter(r => r.ingredients.some(i => i.type === 'fluid'));
+  let remaining = affected.slice();
+  let i = 0;
+  while (remaining.length) {
+    if (i > remaining.length - 2) {
+      i = 0;
+    }
+
+    let recipe = remaining[i++];
+
+    let fluidIngredientsWithAlts = recipe.ingredients
+      .filter(i => i.type === 'fluid')
+      .map(fluidIngredient => ({
+        fluidIngredient,
+        alternativeRecipe: recipes
+          .find(r => r.name === fluidIngredient.name),
+      }))
+      .filter(alt => alt.alternativeRecipe);
+
+    for (let alt of fluidIngredientsWithAlts) {
+      let {fluidIngredient, alternativeRecipe} = alt;
+
+      let result = alternativeRecipe.results
+        .find(r => r.name === fluidIngredient.name);
+      let resultYield = result.amount * (result.probability ?? 1);
+      let yieldRatio = fluidIngredient.amount / resultYield;
+
+      let alternativeIngredients = alternativeRecipe
+        .ingredients
+        .map(ai => ({
+          ...ai,
+          amount: ai.amount * yieldRatio,
+        } as FactorioRecipe['ingredients'][0]));
+
+      for (let altIngredient of alternativeIngredients) {
+        let duplicate = recipe.ingredients
+          .find(i => i.name === altIngredient.name);
+        if (duplicate) {
+          duplicate.amount+=altIngredient.amount;
+          continue;
+        }
+
+        recipe.ingredients.push(altIngredient);
+      }
+
+      recipe.ingredients = recipe.ingredients
+        .filter(i => i !== fluidIngredient);
+    }
+
+    if (!fluidIngredientsWithAlts.length) {
+      remaining.splice(i - 1, 1);
+    }
+  }
+
+}
+
+
+
+
+
+

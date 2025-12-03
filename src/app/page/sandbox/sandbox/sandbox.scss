@@ -13,6 +13,11 @@
   font-size: var(--font-size-1);
 }
 
+.warn {
+  color: var(--color-text-danger);
+  font-weight: var(--font-weight-4);
+}
+
 .payload-container {
   background: oklch(.9 0 0);
   padding: 8px 10px;

@@ -9,12 +9,20 @@ export type EnrichedItem = {
   icon?: string
 }
 
+export type SurfaceName =
+ | 'nauvis'
+ | 'vulcanus'
+ | 'gleba'
+ | 'fulgora'
+ | 'aquilo'
+ | 'space'
+
 /** Resembles a recipe with info to scale up to a full rocket payload */
 export type Alternative = {
   name: string
   yield: number;
   ingredients: EnrichedIngredient[]
-  // results: (Ingredient & {probability?: number})[]
+  craftedOnlyOn?: SurfaceName
 }
 
 /** Ingredient with the weight ratio to the total weight of this recipe.
